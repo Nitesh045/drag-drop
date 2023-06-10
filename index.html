@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag And Drop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+  
+  <div class="left" id="left" >
+    <img src="./pexels-photo-160107.jpeg" alt="image of laptop" id="img" draggable="true">
+    <div class="items" draggable="true">Product1</div>
+    <div class="items" draggable="true">
+      <ul class="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div class="items" draggable="true">Product2</div>
+    <div class="items" draggable="true">Product3</div>
+  </div>
+  <div class="right" id="right"></div>
+  
+ </div>
+ <div class="hideShow" id="hide-show">
+  <h2>Drag And Drop done</h2>
+  <button id="btn" type="reset">Reset</button>
+</div> 
+ <script src="index.js"></script>
+</body>
+</html>
